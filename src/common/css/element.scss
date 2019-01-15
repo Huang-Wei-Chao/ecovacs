@@ -1,0 +1,25 @@
+@import "./layout.scss";
+
+@mixin list($direction:column) {
+  @include flex($direction);
+}
+
+@mixin panel($bgColor:#fff,$padding:0,$margin:0,$height:84px,$txtPadding:0 20px,$color:#333,$fontSize:24px,$txtBgColor:#f3f3f3) {
+  background: $bgColor;
+  margin: $margin;
+  padding: $padding;
+  > h4 {
+    height: $height;
+    line-height: $height;
+    padding: $txtPadding;
+    color: $color;
+    background: $txtBgColor;
+    font-size: $fontSize;
+  }
+}
+
+@mixin ellipsis($whiteSpace:nowrap,$overFlow:hidden,$textOverflow:ellipsis) {
+  text-overflow: $textOverflow;
+  white-space: $whiteSpace;
+  overflow: $overFlow;
+}
