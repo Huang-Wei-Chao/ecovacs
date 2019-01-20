@@ -5,7 +5,7 @@
       科沃斯机器人
     </div>
     <router-link to="/default" tag="div" :class="$style.search">
-      双十二钜惠
+      双旦钜惠
       <i class="iconfont icon-sousuo"></i>
     </router-link>
     <router-link to="/default" tag="div" :class="$style.right"></router-link>

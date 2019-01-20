@@ -50,6 +50,9 @@
 <style lang="scss" module>
   .panel {
     @include panel;
+    > h4 {
+      display: none;
+    }
     .content {
       position: fixed;
       bottom: 120px;

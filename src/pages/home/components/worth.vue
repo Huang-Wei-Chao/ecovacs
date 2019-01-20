@@ -88,7 +88,7 @@
             clearInterval(time)
           }
         }, 1000)
-        // console.log(Date.parse("2019-1-19 13:01:00"))
+        // console.log(Date.parse("2019-1-19 17:55:00"))
       },
     },
     mounted() {

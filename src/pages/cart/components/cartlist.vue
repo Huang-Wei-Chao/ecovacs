@@ -26,8 +26,8 @@
           </div>
         </div>
         <div :class="$style.gift" v-show="item.gift">
-          <p>【赠品】赠品 康宁玻璃锅</p>
-          <em>x1</em>
+          <p>{{item.gift}}</p>
+          <em>x{{item.giftNum}}</em>
         </div>
       </div>
     </section>

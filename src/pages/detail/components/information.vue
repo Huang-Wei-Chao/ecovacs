@@ -4,7 +4,7 @@
       <div :class="$style.title">
         <p>{{detail.name}}</p>
       </div>
-      <div :class="$style.discount" v-show="detail.discount.length">
+      <div :class="$style.discount">
         <p v-for="item in detail.discount">{{item}}</p>
       </div>
       <div :class="$style.price">
@@ -80,11 +80,6 @@
           this.detail.count--
         }
       },
-    },
-    computed: {
-      showDiscount() {
-        return this.detail.length
-      }
     }
   }
 </script>

@@ -28,7 +28,10 @@
         this.selectAllChecked(totalChecked)
       },
       handlePay(totalPrice) {
-        this.pay(totalPrice)
+        let checkedList = this.product.filter(item => item.checked === true)
+        if (checkedList.length) {
+          this.pay(totalPrice)
+        }
       },
       ...mapMutations(['selectAllChecked', 'pay'])
     },

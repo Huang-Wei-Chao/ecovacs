@@ -3,7 +3,7 @@
     <section :class="$style.content">
       <div>
         <span>总评：</span>
-        <em>4402人<span>已评</span></em>
+        <em>{{comment.length}}人<span>已评</span></em>
       </div>
       <div>
         <tag></tag>
