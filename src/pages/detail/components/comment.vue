@@ -71,7 +71,7 @@
       display: none;
     }
     margin-top: 20px;
-    margin-bottom: 36px;
+    margin-bottom: 120px;
     .content {
       padding: 0 20px;
       font-size: 26px;
